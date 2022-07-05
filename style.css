@@ -150,15 +150,14 @@ p.My_recipies_pera {
 #items_flex {
     width: 90%;
     display: flex;
-    margin: 0px auto 80px;
-    margin-right: 32px;
+    margin: 0px auto;
+    flex-direction: row-reverse;
 }
-
 
 .item_1 {
     width: 50%;
     box-shadow: black -2px 2px 11px;
-    padding: 20px;
+    padding: 34px;
     border-radius: 17px;
     margin: 7px;
 }
@@ -186,7 +185,7 @@ h4#item_1_Title {
 .item_2 {
     width: 50%;
     box-shadow: black -2px 2px 11px;
-    padding: 20px;
+    padding: 34px;
     border-radius: 17px;
     margin: 7px;
     margin-right: 42px;
@@ -220,10 +219,15 @@ h4#item_1_Title {
     margin-left: 40px;
 }
 
+
+
 #counter_section {
     width: 90%;
     margin: 0 auto;
-    background-color: #e2e9ed;
+    background-image: url(image/Healthy_eating.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     margin-bottom: 50px;
     border-radius: 10px;
 }
@@ -233,7 +237,18 @@ h4#item_1_Title {
     text-align: center;
     padding: 22px;
     justify-content: center;
+    margin-top: 46px;
+    background: #000000b0;
+    box-shadow: -2px 7px 19px black;
+    border-radius: 12px;
 }
+
+.container:hover {
+
+    border: 5px solid rgb(192, 127, 7);
+}
+
+
 
 .counter {
     margin: 40px;
@@ -242,15 +257,14 @@ h4#item_1_Title {
 #counter_section_h1 {
     font-size: 40px;
     font-weight: bold;
-    color: #293693;
+    color: #ffffff;
 }
 
 #counter_span {
     font-size: 20px;
     color: #f3f3f3;
-    color: #1a292a;
-    border-bottom: 1px d;
-    border-bottom: 1px solid #32282824;
+    color: #fff700;
+    border-bottom: 1px solid #1707fc;
 }
 
 footer {
