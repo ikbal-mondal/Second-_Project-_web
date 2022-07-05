@@ -1,0 +1,142 @@
+body{
+
+    font-family: 'Crimson Text', serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+#Header_banner{
+
+    display: flex;
+    width: 95%;
+    margin:0 auto;
+}
+
+
+.contain_1{
+
+ width:40%;
+ margin-top:77px;
+}
+
+.banner_top_image_1 img{
+
+ width: 100%;
+
+}
+
+#heat_Text {
+    font-size: 43px;
+    margin: 5p;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+span {
+    color: orange;
+}
+
+#pera_Top {
+    font-size: 28px;
+    color: #2a368d;
+    margin-bottom: 46px;
+}
+
+a#link_btn {
+    text-decoration: none;
+    background: orange;
+    padding: 10px 36px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 12px;
+    
+}
+
+a#link_btn:hover{
+     color:cyan;
+    padding: 10px 36px;
+    background-image:linear-gradient(red,blue,green);
+
+}
+
+#middle_section{
+
+    display: flex;
+    background-image: url(image/7.png);
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.middle_image{
+
+    width: 50%;
+}
+
+.middle_text {
+    width: 50%;
+    margin-top: 90px;
+    margin-right: 29px;
+}
+
+#middle_pic_handeler {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#middle_h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    border-bottom: 2px solid #7f8291;
+    display: inline;
+    color: #0d96f7;
+}
+
+#middle_pera {
+    line-height: 26px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 58px;
+    margin-top: 10px;
+    color: #746767;
+}
+
+#middle_pera_2 {
+    line-height: 26px;
+    margin-bottom: 58px;
+    margin-top: 10px;
+    color: #746767;
+}
+
+#My_recipies{
+
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+h1.recipies_h1 {
+    font-size: 35px;
+    border-bottom: 1px solid #918181;
+    text-transform: uppercase;
+    color: #156cb7;
+}
+
+p.My_recipies_pera {
+    font-size: 16px;
+    margin-top: 9px;
+    color: #1393b9;
+}
